@@ -8,7 +8,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/example" # the subpath of your site, e.g. /blog/
 url: "http://jekyll.github.io" # the base hostname & protocol for your site
 twitter_username: pharoproject
-github_username:  pharo
+github_username:  pharo-compendiums
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Sample blog
 
 # Build settings
 markdown: kramdown
