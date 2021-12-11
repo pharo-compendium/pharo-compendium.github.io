@@ -1,8 +1,12 @@
 ---
 layout: null
 ---
-{% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-  </item>
-{% endfor %}
+[
+    {% for post in site.posts %}
+        {
+        "date": "{{ post.date }}",
+        "title": "{{ post.title }}" 
+        }
+        {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
