@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Seaside"
+categories: [crawler]
+tags: [Javascript, crawler, bots]
+description: Seaside is a web framework
+---
+
+When I was finishing my tests
