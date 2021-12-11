@@ -8,10 +8,11 @@ tagline:
     Hello from HTML 2
   </h2>
 
-  {% for item in paginator.items %}
+  <ul>
+  {% for item in site.items %}
       <li>
           {{ item.title }}
       <li>      
   {% endfor %}
-
+  </ul>
   
