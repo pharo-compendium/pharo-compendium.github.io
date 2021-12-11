@@ -15,7 +15,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Sample blog
+      title: Pharo
 
 # Build settings
 markdown: kramdown
