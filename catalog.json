@@ -5,7 +5,8 @@ layout: null
     {% for post in site.posts %}
         {
             "title": "{{ post.title }}", 
-            "date": "{{ post.date }}"        
+            "date": "{{ post.date }}", 
+            "version": "{{ post.version }}"       
         }
         {% unless forloop.last %},{% endunless %}
     {% endfor %}

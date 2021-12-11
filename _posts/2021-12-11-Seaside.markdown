@@ -4,6 +4,7 @@ title: "Seaside"
 categories: [crawler]
 tags: [Javascript, crawler, bots]
 description: Seaside is a web framework
+version: [Pharo 7, Pharo 8]
 ---
 
 When I was finishing my tests
