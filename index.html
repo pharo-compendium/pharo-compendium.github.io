@@ -9,9 +9,9 @@ tagline:
   </h2>
 
   <ul>
-  {% for item in site.items %}
+  {% for post in site.posts %}
       <li>
-          {{ item.title }}
+          <h3>Item: {{ post.title }}</h3>          
       <li>      
   {% endfor %}
   </ul>
