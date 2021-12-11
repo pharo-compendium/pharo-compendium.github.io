@@ -1,2 +1,3 @@
 # pharo-compendium.github.io
-README
+
+[pharo-compendium.github.io](https://pharo-compendium.github.io)
