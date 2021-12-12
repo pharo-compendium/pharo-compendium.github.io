@@ -3,7 +3,7 @@ layout: null
 ---
 {
     "name": 'Pharo Compendium',
-    "entries": [
+    "items": [
         {% for entry in site.posts %}
             {
                 "name": "{{ entry.title }}",              
