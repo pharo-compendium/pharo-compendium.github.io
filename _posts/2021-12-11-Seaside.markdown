@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Seaside"
-categories: [crawler]
-tags: [Javascript, crawler, bots]
-description: Seaside is a web framework
+homepage: "https://www.seasid.st"
+categories: [Web Development]
+tags: [web, framework]
+description: Seaside is a sophisticated web framework for Smalltalk
 version: [Pharo 7, Pharo 8]
 expression: "
     Metacello new
@@ -12,5 +13,8 @@ expression: "
         load
 "   
 ---
+<img src="https://www.seaside.st/styles/logo-plain.png">
 
-When I was finishing my tests
+Seaside is a framework for developing sophisticated web applications in Smalltalk.
+
+Visit the <a href="https://github.com/seasidest/seaside">Seaside GitHub</a> page or <a href="https://www.seaside.st">www.seaside.st</a> to get more informations.
