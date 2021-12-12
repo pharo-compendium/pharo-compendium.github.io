@@ -1,16 +1,19 @@
 ---
 layout: null
 ---
-[
-    {% for entry in site.posts %}
-        {
-            "name": "{{ entry.title }}",              
-            "url": "{{ site.url }}{{ entry.url }}",
-            "category": "{{ entry.category }}",                                      
-            "homepage": "{{ entry.homepage }}",        
-            "icon": "{{ entry.icon }}",
-            "expression": "{{ entry.expression }}"                
-        }
-        {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-]
+{
+    "name": 'Pharo Compendium',
+    "entries": [
+        {% for entry in site.posts %}
+            {
+                "name": "{{ entry.title }}",              
+                "url": "{{ site.url }}{{ entry.url }}",
+                "category": "{{ entry.category }}",                                      
+                "homepage": "{{ entry.homepage }}",        
+                "icon": "{{ entry.icon }}",
+                "expression": "{{ entry.expression }}"                
+            }
+            {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]    
+}
