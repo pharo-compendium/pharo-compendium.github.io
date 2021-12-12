@@ -1,4 +1,17 @@
+#################################################################################################
+#
 # Site settings
+#
+# Please visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+#
+##################################################################################################
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+
+#*************************************************************************************************
+# GENERAL SETTINGS
+#*************************************************************************************************
 title: Pharo Catalog
 email: noreply@pharo.org
 description: > # this means to ignore newlines until "baseurl:"
@@ -7,9 +20,16 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://pharo-compendium.github.io/" # the base hostname & protocol for your site
+
+#*************************************************************************************************
+# USERS
+#*************************************************************************************************
 twitter_username: pharoproject
 github_username:  pharo-compendium
 
+#*************************************************************************************************
+# DEFAULT
+#*************************************************************************************************
 defaults:
   -
     scope:
@@ -17,6 +37,8 @@ defaults:
     values:
       title: Pharo
 
-# Build settings
+#*************************************************************************************************
+# BUILD SETTINGS
+#*************************************************************************************************
 markdown: kramdown
 permalink: /:year/:title:output_ext
