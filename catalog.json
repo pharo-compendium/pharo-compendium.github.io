@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-    {% for entry in site.entries %}
+    {% for entry in site.posts %}
         {
             "title": "{{ entry.title }}", 
             "date": "{{ entry.date }}", 
