@@ -7,7 +7,7 @@ layout: null
             "title": "{{ entry.title }}",              
             "category": "{{ entry.category }}",                                      
             "homepage": "{{ entry.homepage }}",
-            "url": "{{ entry.url }}",
+            "url": "{{ site.BASE_PATH }}{{ entry.url }}",
             "icon": "{{ entry.icon }}",
             "expression": "{{ entry.expression }}"                
         }
