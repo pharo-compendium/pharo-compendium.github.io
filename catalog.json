@@ -7,6 +7,8 @@ layout: null
             "title": "{{ entry.title }}", 
             "date": "{{ entry.date }}", 
             "version": "{{ entry.version }}",
+            "homepage": "{{ entry.homepage }}",
+            "icon": "{{ entry.icon }}",
             "expression": "{{ entry.expression }}"                
         }
         {% unless forloop.last %},{% endunless %}
