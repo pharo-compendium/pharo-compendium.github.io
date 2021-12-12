@@ -5,11 +5,12 @@ categories: [crawler]
 tags: [Javascript, crawler, bots]
 description: Pomodoro Timer for Pharo following the Pomodoro Technique
 version: [Pharo 10],
-expression: > # this means to ignore newlines until next property
+expression: [
     Metacello new 
 	    repository: 'github://astares/Pharo-Pomodoro/src';
 	    baseline: 'Pomodoro';
 	    load
+	]
 ---
 
 When I was finishing my tests
