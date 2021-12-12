@@ -6,16 +6,18 @@ tagline:
   <em>The Pharo compendium is a catalog of loadable items defined in <a href="catalog.json">catalog.json</a></em>
   </p>
   <h2>
-    All catalog items 10:
+    All catalog items 11:
   </h2>
 
-  <ul>
   {% for entry in site.posts %}
-      <li>
-          <h3>Item: <a href="{{ site.BASE_PATH }}{{ post.url }}"></a>{{ entry.title }}</a></h3>      
-          <p>{{ entry.description }}</p>    
-      </li>      
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">{{ entry.title }}</h3>
+        <h6 class="card-subtitle mb-2 text-muted">{{ entry.title }}</h6>
+        <p class="card-text">{{ entry.description }}</p>
+        <a href="{{ site.BASE_PATH }}{{ post.url }}" class="card-link">Details</a> 
+      </div>
+    </div>         
   {% endfor %}
-  </ul>
   
   
