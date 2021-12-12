@@ -4,7 +4,7 @@ title: "Seaside"
 categories: [crawler]
 tags: [Javascript, crawler, bots]
 description: Seaside is a web framework
-version: [Pharo 7, Pharo 8],
+version: [Pharo 7, Pharo 8]
 expression: [
     Metacello new
         baseline:'Seaside3';
