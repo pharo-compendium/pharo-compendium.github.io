@@ -24,10 +24,12 @@ PXf0xNQlXdft3S0IIdTby8uHrl788nR+/vKkWE2PeIYRBtDiHZXo6NhSz+RzP4wfm/p5eHg4
 ret66z9rBGg2m1qtVotWKpU9jWolJsmyG4nFa/F4vBKNRmu6rtsP5/8B8kBudJ3n+60AAAAA
 SUVORK5CYII="
 expression: "
-    Metacello new 
-	    repository: 'github://astares/Pharo-Pomodoro/src';
-	    baseline: 'Pomodoro';
-	    load"
+   LoadableProject new 
+		repository: 'astares/Pharo-Pomodoro'; 
+		baselineName: 'Pomodoro'; 
+		version: 'master';
+		group: #default;
+		load"
 ---
 
 Pomodoro Timer for Pharo following the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a>
