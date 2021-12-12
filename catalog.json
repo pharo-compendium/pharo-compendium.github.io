@@ -5,7 +5,7 @@ layout: null
     {% for entry in site.posts %}
         {
             "title": "{{ entry.title }}",              
-            "url": "{{ site.BASE_PATH }}{{ entry.url }}",
+            "url": "{{ site.url }}{{ entry.url }}",
             "category": "{{ entry.category }}",                                      
             "homepage": "{{ entry.homepage }}",        
             "icon": "{{ entry.icon }}",
