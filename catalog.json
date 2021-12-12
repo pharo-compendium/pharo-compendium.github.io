@@ -4,9 +4,8 @@ layout: null
 [
     {% for entry in site.posts %}
         {
-            "title": "{{ entry.title }}", 
-            "date": "{{ entry.date }}", 
-            "version": "{{ entry.version }}",
+            "title": "{{ entry.title }}",              
+            "category": "{{ entry.category }}",                                      
             "homepage": "{{ entry.homepage }}",
             "icon": "{{ entry.icon }}",
             "expression": "{{ entry.expression }}"                
