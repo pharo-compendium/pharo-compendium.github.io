@@ -2,7 +2,7 @@
 layout: post
 title: "Pomodoro"
 homepage: "https://github.com/astares/Pharo-Pomodoro"
-categories: [Utilities]
+category: [Utilities]
 tags: [tools, utilities]
 description: Pomodoro Timer for Pharo following the Pomodoro Technique
 version: [Pharo 10] 

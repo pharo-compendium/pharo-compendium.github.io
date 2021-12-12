@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Seaside"
-homepage: "https://www.seasid.st"
-categories: [Web Development]
+homepage: "https://www.seaside.st"
+category: [Web Development]
 tags: [web, framework]
 description: Seaside is a sophisticated web framework for Smalltalk
 version: [Pharo 7, Pharo 8]
