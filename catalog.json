@@ -2,11 +2,11 @@
 layout: null
 ---
 [
-    {% for post in site.posts %}
+    {% for entry in site.entries %}
         {
-            "title": "{{ post.title }}", 
-            "date": "{{ post.date }}", 
-            "version": "{{ post.version }}"       
+            "title": "{{ entry.title }}", 
+            "date": "{{ entry.date }}", 
+            "version": "{{ entry.version }}"       
         }
         {% unless forloop.last %},{% endunless %}
     {% endfor %}

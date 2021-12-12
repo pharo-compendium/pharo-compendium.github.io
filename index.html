@@ -2,19 +2,22 @@
 layout: page
 tagline:
 ---
- 
+  <h1>Pharo Compendium</h1>
 
+  <p>
+  <em>The Pharo compendium is a catalog of loadable items defined in <a href="catalog.json">catalog.json</a></em>
+  </p>
   <h2>
-    All items 2:
+    All catalog items:
   </h2>
 
   <ul>
-  {% for post in site.posts %}
+  {% for entry in site.entries %}
       <li>
-          <h3>Item: {{ post.title }}</h3>      
-          <p>{{ post.description }}</p>    
+          <h3>Item: {{ entry.title }}</h3>      
+          <p>{{ entry.description }}</p>    
       </li>      
   {% endfor %}
   </ul>
   
-  <a href="catalog.json">catalog.json</a>
+  
