@@ -6,7 +6,8 @@ layout: null
         {
             "title": "{{ entry.title }}", 
             "date": "{{ entry.date }}", 
-            "version": "{{ entry.version }}"       
+            "version": "{{ entry.version }}",
+            "expression": "{{ entry.expression }}"       
         }
         {% unless forloop.last %},{% endunless %}
     {% endfor %}
