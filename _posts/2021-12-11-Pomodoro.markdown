@@ -5,12 +5,11 @@ categories: [crawler]
 tags: [Javascript, crawler, bots]
 description: Pomodoro Timer for Pharo following the Pomodoro Technique
 version: [Pharo 10]
-expression: [
+expression: "
     Metacello new 
 	    repository: 'github://astares/Pharo-Pomodoro/src';
 	    baseline: 'Pomodoro';
-	    load
-	]
+	    load"
 ---
 
 When I was finishing my tests

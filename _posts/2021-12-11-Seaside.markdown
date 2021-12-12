@@ -5,12 +5,12 @@ categories: [crawler]
 tags: [Javascript, crawler, bots]
 description: Seaside is a web framework
 version: [Pharo 7, Pharo 8]
-expression: [
+expression: "
     Metacello new
         baseline:'Seaside3';
         repository: 'github://SeasideSt/Seaside:master/repository';
         load
-]    
+"   
 ---
 
 When I was finishing my tests
