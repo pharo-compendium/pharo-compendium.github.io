@@ -4,6 +4,7 @@ layout: null
 {
     "name": "Pharo Compendium",
     "url": "https://pharo-compendium.github.io/catalog.json",
+    "homepage": "https://pharo-compendium.github.io",
     "entries": [
         {% for entry in site.posts %}
             {
