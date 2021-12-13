@@ -3,12 +3,14 @@ layout: null
 ---
 {
     "name": "Pharo Compendium",
+    "description": "Central Pharo projects catalog",    
     "homepage": "https://pharo-compendium.github.io",
-    "url": "https://pharo-compendium.github.io/catalog.json",    
+    "url": "https://pharo-compendium.github.io/catalog.json",       
     "entries": [
         {% for entry in site.posts %}
             {
-                "name": "{{ entry.title }}",                              
+                "name": "{{ entry.title }}",
+                "description": "{{ entry.description }}",                              
                 "homepage": "{{ entry.homepage }}",        
                 "url": "{{ site.url }}{{ entry.url }}",
                 "category": "{{ entry.category }}",                                                      
