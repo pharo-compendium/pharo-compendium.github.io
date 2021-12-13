@@ -3,15 +3,15 @@ layout: null
 ---
 {
     "name": "Pharo Compendium",
-    "url": "https://pharo-compendium.github.io/catalog.json",
     "homepage": "https://pharo-compendium.github.io",
+    "url": "https://pharo-compendium.github.io/catalog.json",    
     "entries": [
         {% for entry in site.posts %}
             {
-                "name": "{{ entry.title }}",              
-                "url": "{{ site.url }}{{ entry.url }}",
-                "category": "{{ entry.category }}",                                      
+                "name": "{{ entry.title }}",                              
                 "homepage": "{{ entry.homepage }}",        
+                "url": "{{ site.url }}{{ entry.url }}",
+                "category": "{{ entry.category }}",                                                      
                 "icon": "{{ entry.icon }}",
                 "expression": "{{ entry.expression }}"                
             }
